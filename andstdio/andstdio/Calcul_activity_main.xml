@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100px"
+        android:text="Calculatrice"
+        android:textSize="15pt"/>
+
+    <EditText
+        android:id="@+id/number1"
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:layout_marginTop="50px"
+        android:inputType="number"
+        android:textSize="14pt"
+        />
+    <EditText
+        android:id="@+id/number2"
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:layout_marginTop="20px"
+        android:inputType="number"
+        android:textSize="14pt"
+
+        />
+    <LinearLayout
+        android:id="@+id/test"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30px"
+        android:layout_marginLeft="10px"
+        android:orientation="horizontal"
+        >
+
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_marginLeft="10px"
+            android:text="+"
+            android:textSize="14pt"
+            android:onClick="plus"
+            />
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_marginLeft="10px"
+            android:text="-"
+            android:textSize="14pt"
+            android:onClick="moins"
+
+            />
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_marginLeft="10px"
+            android:text="/"
+            android:textSize="14pt"
+            android:onClick="divise"
+
+            />
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_marginLeft="10px"
+            android:text="*"
+            android:textSize="14pt"
+            android:onClick="multiplie"
+
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20px"
+        android:textSize="14pt"
+        android:textAlignment="center"
+        />
+
+
+
+
+
+</LinearLayout>

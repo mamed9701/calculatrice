@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcul de moyenne"
+        android:textSize="15pt"
+        android:textAlignment="center"/>
+
+
+    <EditText
+        android:id="@+id/number1"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:layout_marginTop="50px"
+        android:inputType="number"
+        android:maxLength="20"
+        android:textSize="13pt"
+        />
+    <EditText
+        android:id="@+id/number2"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:layout_marginTop="20px"
+        android:inputType="number"
+        android:textSize="13pt"
+        />
+    <EditText
+        android:id="@+id/number3"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:layout_marginTop="20px"
+        android:inputType="number"
+        android:textSize="13pt"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="150px"
+        android:layout_marginLeft="100px"
+        android:layout_marginRight="100px"
+        android:text="CALCULER"
+        android:textSize="13pt"
+        android:onClick="moyenne"/>
+
+
+
+
+</LinearLayout>
